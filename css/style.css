@@ -1,0 +1,44 @@
+.pendidikan{
+    position: relative;
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #fff;
+    display: flex;
+}
+.pendidikan .logo {
+    width: 150px;
+    flex: 0 0 150px;
+}
+.pendidikan .logo img {
+    max-width: 100%;
+}
+.pendidikan .description {
+    padding-left: 20px;
+}
+.pendidikan .description h2 {
+    margin: 0;
+    padding-left: 0;
+}
+.pendidikan .description h3 {
+    margin: 0;
+    padding: 10px 0 0;
+    text-align: justify;
+}
+
+.tabel {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+}
+
+.table .thead .tr {
+    background-color: #009879;
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+}

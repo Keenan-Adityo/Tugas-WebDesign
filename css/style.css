@@ -1,12 +1,23 @@
+body {
+    background-image: url("/assets/bg.jpg");
+}
+
+header {
+    text-align: center;
+}
+.perkenalan {
+    text-align: center;
+}
+
+.aktivitas {
+    text-align: center;
+}
+
 .pendidikan{
     position: relative;
-    /* top: 50%; */
-    /* left: 50%; */
-    /* transform: translate(-50%, -50%); */
     width: 600px;
     padding: 20px;
     box-sizing: border-box;
-    background: #fff;
     display: flex;
 }
 .pendidikan .logo {
@@ -36,9 +47,13 @@
     min-width: 400px;
 }
 
-.table .thead .tr {
+.tabel thead tr{
     background-color: #009879;
     color: #fff;
     text-align: left;
     font-weight: bold;
+}
+
+.tabel tbody tr {
+    border-bottom: 1px solid #ddd;
 }

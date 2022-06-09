@@ -29,6 +29,11 @@ a{
     text-align: center;
 }
 
+.fotodiri img {
+    max-width: 500px;
+    padding: 12px;
+}
+
 .aktivitas {
     text-align: center;
 }
@@ -36,10 +41,11 @@ a{
 .pendidikan{
     justify-content: center ;
     position: relative;
+    display: flex;
     width: 100%;
     padding: 20px;
     box-sizing: border-box;
-    display: flex;
+    
 }
 .pendidikan .logo {
     width: 150px;
